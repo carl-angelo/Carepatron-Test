@@ -18,7 +18,7 @@ export default function ClientListItem({ client }: IProps) {
         },
       }}
     >
-      <TableCell component="th" scope="row">
+      <TableCell component="th" scope="row" style={{ 'color': 'blue' }}>
         {firstName} {lastName}
       </TableCell>
       <TableCell>{phoneNumber}</TableCell>
